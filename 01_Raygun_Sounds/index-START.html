@@ -2,60 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JS Drum Kit</title>
+  <title>Raygun Sounds</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 
   <div class="keys">
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">R</span>
+    </div>
     <div data-key="65" class="key">
       <kbd>A</kbd>
-      <span class="sound">clap</span>
+      <span class="sound">A</span>
     </div>
-    <div data-key="83" class="key">
-      <kbd>S</kbd>
-      <span class="sound">hihat</span>
-    </div>
-    <div data-key="68" class="key">
-      <kbd>D</kbd>
-      <span class="sound">kick</span>
-    </div>
-    <div data-key="70" class="key">
-      <kbd>F</kbd>
-      <span class="sound">openhat</span>
+    <div data-key="89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">Y</span>
     </div>
     <div data-key="71" class="key">
       <kbd>G</kbd>
-      <span class="sound">boom</span>
+      <span class="sound">G</span>
     </div>
-    <div data-key="72" class="key">
-      <kbd>H</kbd>
-      <span class="sound">ride</span>
+    <div data-key="85" class="key">
+      <kbd>U</kbd>
+      <span class="sound">U</span>
     </div>
-    <div data-key="74" class="key">
-      <kbd>J</kbd>
-      <span class="sound">snare</span>
-    </div>
-    <div data-key="75" class="key">
-      <kbd>K</kbd>
-      <span class="sound">tom</span>
-    </div>
-    <div data-key="76" class="key">
-      <kbd>L</kbd>
-      <span class="sound">tink</span>
+    <div data-key="78" class="key">
+      <kbd>N</kbd>
+      <span class="sound">N</span>
     </div>
   </div>
 
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio data-key="82" src="raygun_sounds/151011__bubaproducer__laser-classic-shot-4.wav"></audio>
+  <audio data-key="65" src="raygun_sounds/151013__bubaproducer__laser-classic-shot-2.wav"></audio>
+  <audio data-key="89" src="raygun_sounds/151021__bubaproducer__laser-shot-big-3.wav"></audio>
+  <audio data-key="71" src="raygun_sounds/25753__freqman__raygun01.wav"></audio>
+  <audio data-key="85" src="raygun_sounds/367401__wjoojoo__raygun01.wav"></audio>
+  <audio data-key="78" src="raygun_sounds/61802__keston__pro-one-raygun.wav"></audio>
+  
 
 <script>
   function removeTransition(e) {
